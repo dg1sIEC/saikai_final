@@ -1,0 +1,55 @@
+.centered { display: table; margin-left: auto; margin-right: auto; }
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  font-family: MaruBuri;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+#auth{
+  text-align: right;
+  text-decoration: underline;
+  font:Roboto;
+  font-size: 0.5rem;
+  letter-spacing: 0px;
+  color: #686868;
+  opacity: 1;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+.title{
+  text-align: center;
+  font-family: MaruBuri;
+  font-weight: 700;
+  font-size:2rem;
+}
+.chapters{
+  font-family: MaruBuri;
+  font-size:1.2rem;
+  font-weight:400;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.answerField{
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hint{
+  margin-top: 0.3rem;
+  font-size: 0.4rem;
+  color: #686868;
+}
