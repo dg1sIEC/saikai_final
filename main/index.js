@@ -13,12 +13,11 @@ document.forms[0].onsubmit = (event) => {
       .then((res) => res.json())
       .then((result) => {
         r = result.body.replace(/\"/g, "")
-        console.log(r)
-        // if (r === 'Wrong Answer! Please Try Again.'){
-        //     alert(r)
-        // } else {
-        //     window.location.href = `./${r}.html`
-        // }
+        if (r === 'Wrong Answer! Please Try Again.'){
+            alert(r)
+        } else {
+            window.location.href = `./${r}.html`
+        }
     })
     .catch(error => console.error(error));
 }
